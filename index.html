@@ -3,7 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CDN has been set up here -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/css/main.css"></script>
     <title>CSS Framework / Flexbox Page</title>
   </head>
-  <body></body>
+  <body>
+    <h1 class="hidden">
+      Welcome to Breath Bros. , The Temporary site for grid practicing.
+    </h1>
+    <header>
+      <!-- Main Navigation & Burger Button -->
+      <h2 class="hidden">Main Navigation</h2>
+      <button id="burger"></button>
+      <nav id="main-nav" class="flex">
+        <a href=""> <img src="#" alt="Breath Bros." id="logo" /></a>
+        <ul class="flex">
+          <li><a href="">Home</a></li>
+          <li><a href="">Another Breath</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="hero-section">
+      <!-- Hero Section and Highlight Content Section-->
+      <h2 class="hidden">Hero Section</h2>
+    </main>
+    <section id="hl-content">
+      <h2 class="hidden">Highlight Content</h2>
+      <h3>Unlock Vitality: Benefits of Breath Training</h3>
+      <p>
+        Enhance focus, reduce stress, improve lung capacity, boost immunity,
+        increase energy, enhance relaxation, elevate mood, better sleep, and
+        improve overall wellness.
+      </p>
+    </section>
+    <section id="subscription">
+      <!-- Subscription Box -->
+      <h2 class="hidden">Subscription Section</h2>
+      <form action="#">
+        <label for="email">Breathing Tips on ur inbox!</label>
+        <input type="text" name="email" />
+      </form>
+    </section>
+
+    <footer id="footer">
+      <!-- Footer Section -->
+      <h2 class="hidden">Footer section</h2>
+      <p>&copy; Natchanon Nate Mahaitidon</p>
+    </footer>
+  </body>
 </html>
