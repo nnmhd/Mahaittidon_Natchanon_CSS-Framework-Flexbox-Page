@@ -38,34 +38,37 @@
         </ul>
       </nav>
     </header>
-    <main id="contents-section" class="grid grid-cols-4 gap-4 xl:grid-cols-8">
-      <!-- Hero Section and Highlight Content Section-->
-      <h2 class="hidden">Hero Section</h2>
+    <main class="grid grid-cols-4 gap-4 xl:grid-cols-8">
       <section
-        id="hero-section"
-        class="h-96 p-3 bg-green-100 rounded-2xl col-span-4 xl:col-span-4 xl:row-span-4"></section>
+        id="invitation"
+        class="col-span-4 flex flex-col p-3 bg-white rounded-2xl md:col-span-2 row-span-3 xl:col-span-5 xl:items-center">
+        <h2 class="hidden">
+          Subscribe for more breathing technic and some news from community
+        </h2>
+        <h3 class="text-3xl font-bold mt-6 xl:text-center">
+          Better Breathing, Better Living.
+        </h3>
+        <img
+          src="images/letter-illus.svg"
+          class="w-52 my-6 mx-auto"
+          alt="Newsletter for new tips!" />
+        <h4 class="text-m xl:max-w-lg xl:text-center">
+          Join the Breath Bros. family today and unlock a world of benefits that
+          will transform your breathing practice and enhance your life. Don't
+          miss out on exclusive tips, early access to programs, personalized
+          plans, motivational content, and special discounts. Subscribe now and
+          breathe your way to a healthier, happier you!
+        </h4>
+      </section>
 
       <section
-        id="hl-content"
-        class="flex flex-col justify-end bg-white p-3 rounded-2xl col-span-4 md:col-span-2 xl:col-span-4 xl:row-span-3 xl:h-full">
-        <h2 class="hidden">Highlight Content</h2>
-        <h3 class="text-3xl font-extrabold mb-3 line-clamp-2">
-          Unlock Vitality: <br />Benefits of Breath Training
-        </h3>
-        <p class="max-w-lg line-clamp-3">
-          Enhance focus, reduce stress, improve lung capacity, boost immunity,
-          increase energy, enhance relaxation, elevate mood, better sleep, and
-          improve overall wellness.
-        </p>
-      </section>
-      <section
         id="subscription"
-        class="col-span-4 flex items-center bg-teal-100 p-3 rounded-xl md:col-span-2 xl:col-span-4">
+        class="col-span-4 flex items-center bg-teal-100 p-3 rounded-xl md:col-span-2 xl:col-span-3">
         <!-- Subscription Box -->
         <h2 class="hidden">Subscription Section</h2>
         <form id="subscriptionForm" action="#" class="w-full">
-          <label for="email" class="font-bold md:text-xl"
-            >Breathing Tips on Your Inbox!</label
+          <label for="email" class="font-bold md:text-1xl"
+            >Do not be shy, Become Breath Bros!</label
           >
           <input
             id="subscriptionEmail"
@@ -75,6 +78,32 @@
             placeholder="@"
             required />
         </form>
+      </section>
+
+      <section id="benefit" class="col-span-4 p-3 md:col-span-2 xl:col-span-3">
+        <h3 class="text-2xl font-bold mb-3">Benefits of Subscribing</h3>
+        <ol class="bg-teal-100 border-2 border-black rounded-2xl p-3">
+          <li>
+            <b>Exclusive Tips and Techniques: 📝</b> <br />Access unique
+            breathing exercises from professional coaches.
+          </li>
+          <li>
+            <b>Early Access to Programs: 🗓️</b> <br />Be the first to know about
+            new programs and workshops.
+          </li>
+          <li>
+            <b>Personalized Plans: 🧩</b> <br />Receive customized breathing
+            plans tailored to your needs.
+          </li>
+          <li>
+            <b>Motivational Content: 🌟</b> <br />Stay inspired with success
+            stories from the community.
+          </li>
+          <li>
+            <b>Special Discounts: 🎁</b> <br />Enjoy exclusive offers on Breath
+            Bros. products and services.
+          </li>
+        </ol>
       </section>
     </main>
     <footer id="footer" class="bg-yellow-300 mt-4 bg-amber-100 p-3 rounded-xl">
