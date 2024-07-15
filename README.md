@@ -1,4 +1,4 @@
-#CSS Framework / Flexbox Page ; gird practicing for Fanshawe College, IDP students.
+## CSS Framework / Flexbox Page ; gird practicing for Fanshawe College, IDP students.
 
 This is CSS Grid and Flexbox responsive website practicing with Tailwind, I created mockup site for Breathing Coaching called "Breath Bros."
 
